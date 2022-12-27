@@ -4,7 +4,7 @@ pragma solidity ^0.8.7;
 
 import "@openzeppelin/contracts@4.4.2/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts@4.4.2/utils/Counters.sol";
-//testing
+//testing account
 contract dynBloom is ERC721, ERC721URIStorage {
 
     using Counters for Counters.Counter;
