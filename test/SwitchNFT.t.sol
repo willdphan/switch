@@ -2,13 +2,13 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../src/Counter.sol";
+import "src/SwitchNFT.sol";
 
-contract CounterTest is Test {
-    Counter public counter;
+contract CounterTest is DSTest {
+    Switch public switch;
 
     function setUp() public {
-        counter = new Counter();
+        switch = new Switch();
         counter.setNumber(0);
     }
 

@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 /// from a seed to a flower bloom
 /// @author William Phan
 /// @custom:experimental This is an experimental contract.
-contract dynBloom is ERC721, ERC721URIStorage {
+contract Switch is ERC721, ERC721URIStorage {
     
     /// @notice used to keep track of the number of unique ERC721 tokens
     using Counters for Counters.Counter;
