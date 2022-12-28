@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 
 /// @title A dynamic NFT collection that changes 
 /// from a seed to a flower bloom
-/// @author Will Phan
+/// @author William Phan
 /// @custom:experimental This is an experimental contract.
 contract dynBloom is ERC721, ERC721URIStorage {
     
